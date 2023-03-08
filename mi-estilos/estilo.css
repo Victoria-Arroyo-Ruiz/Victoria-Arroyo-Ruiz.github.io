@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+body{
+    display: flex;
+    font-family: 'Titillium Web', sans-serif;
+   
+ }
+ 
+aside{
+    background-color: #cbdcdf;
+    color:#000000;
+    padding: 50px;
+    margin-right: 8px;
+    
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: -50px;
+    margin-bottom: 70px;
+}
+
+aside section{
+    margin-bottom: 100px;
+}
+.titulo-aside{
+    border-bottom: 1px solid #ff8830;
+}
+.info-contacto h2{
+    margin-top: 20px;
+    font-size: 18px;
+    letter-spacing: 3px;
+  
+    
+}
+.punto-fuerte h2{
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+aside li{
+    margin-bottom: 10px;
+    list-style: none;
+    margin-left: -40px;
+}
+
+header{
+    background-color: #aeced2;
+    padding: 50px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-family: 'Yellowtail';
+}
+header h2{
+    border-top: 1px solid #ff8830;
+
+   
+}
+
+main section{
+    background-color: #aeced2;
+    color: #000000;
+    padding: 20px;
+
+}
+
+.tecnologia, .telecomunicacion, .idiomas{
+    padding: 10px;
+}
+
+.perfil h2, .experiencia h2{
+    margin-bottom: 10px;
+    
+}
+.educacion .fa-solid, .experiencia h4{
+    margin-top: 20px;
+}
+
+main section h2{
+    background-color: #ff8830;
+    text-align: center;
+}
+
+main section dt{
+        margin-top: 15px;
+        color: #ff8830;
+        font-size: 1.3rem;
+        letter-spacing: 2px;
+    }
